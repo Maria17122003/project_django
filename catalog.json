@@ -1,0 +1,70 @@
+[
+  {"model": "catalog.product",
+    "pk": 1,
+    "fields":
+    {
+      "name": "iPhone 11",
+      "description": "Страна изготовления: Китай\r\nГод выпуска: 2019\r\nЦвета: красный, черный, белый, желтый, зеленый, фиолетовый\r\nДиагональ: 6.1 дюйма",
+      "image": "products/iphone-11-models-100824669-orig-1.webp",
+      "category": "Телефон",
+      "price": 49999,
+      "date_of_creation": "2023-06-03T10:46:36Z",
+      "last_modified_date": "2023-06-03T10:46:40Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 2,
+    "fields":
+    {
+      "name": "Sony Playstation 5",
+      "description": "Страна изготовления: Япония\r\nГод выпуска: 2020\r\nЦвет: бело-черный",
+      "image": "products/6401600356.jpg",
+      "category": "Игровые приставки",
+      "price": 52999,
+      "date_of_creation": "2023-06-03T10:56:08Z",
+      "last_modified_date": "2023-06-03T10:56:10Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 3,
+    "fields":
+    {
+      "name": "Холодильник Samsung",
+      "description": "Страна изготовления: Китай\r\nГод выпуска: 2020\r\nЦвет: белый",
+      "image": "products/samsung_rl60gqers1_1.jpg",
+      "category": "Бытовая техника",
+      "price": 41999,
+      "date_of_creation": "2023-06-03T11:09:56Z",
+      "last_modified_date": "2023-06-03T11:09:58Z"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 4,
+    "fields":
+    {
+      "name_category": "Телефон",
+      "description_category": "Цифровая техника"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 5,
+    "fields":
+    {
+      "name_category": "Игровые приставки",
+      "description_category": "Развлечение и ТВ"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 6,
+    "fields":
+    {
+      "name_category": "Бытовая техника",
+      "description_category": "Для дома и семьи"
+    }
+  }
+]
